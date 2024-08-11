@@ -1,0 +1,29 @@
+.movie-card{
+  width: auto;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  
+}
+.sep-card{
+  border: 1px solid green;
+  height: 100%;
+}
+.details-movie{
+  /* height: 100%; */
+}
+
+#movie-name{
+  text-align: center;
+  word-wrap: break-word
+  /* white-space: normal;
+  overflow: overlay; */
+  /* font-size: 15px; */
+}
+#pic{
+  text-align: center;
+}
+#movie-date{
+  
+  text-align: center;
+  word-wrap: break-word
+}

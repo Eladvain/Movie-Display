@@ -1,0 +1,14 @@
+.list-card{
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  border: 1px  solid red;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% ;
+  
+  gap: 5%;
+  
+  
+}
