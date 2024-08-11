@@ -2,28 +2,50 @@
   width: auto;
   display: grid;
   grid-template-columns: 50% 50% ;
-  
 }
 .sep-card{
   border: 1px solid green;
-  height: 100%;
+  height: 150px
 }
 .details-movie{
-  /* height: 100%; */
+  height : 150px;
+  position: relative;
+}
+.name-div{
+ height: 25px; 
 }
 
 #movie-name{
   text-align: center;
+  font-size: 11px;
   word-wrap: break-word
-  /* white-space: normal;
-  overflow: overlay; */
-  /* font-size: 15px; */
+}
+.title-div{
+  /* border: 1px solid red; */
+  height: 82px;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+#movie-title{
+ 
+  font-size: 11px;
 }
 #pic{
-  text-align: center;
+  width: 100%;
+  display: block;
+  height: 100%;
+  /* vertical-align: bottom; */
 }
 #movie-date{
-  
+  /* margin-top: 50px; */
   text-align: center;
-  word-wrap: break-word
+  word-wrap: break-word;
+  font-size: 11px;
+
+}
+.date-div{
+  /* position: absolute;
+  left: 0;
+  bottom: 0; */
+  height: 20px;
 }

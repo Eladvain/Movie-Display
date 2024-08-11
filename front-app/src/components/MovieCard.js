@@ -5,12 +5,18 @@ const MovieCard = ({movieItem}) => {
   return (
     <div className='movie-card'>
       <div className='sep-card pic-movie'>
-        <p id='pic'>hello from world</p>
+        <img id='pic' src={movieItem.urlToImage} alt='png'></img>
       </div>
       <div className='sep-card details-movie'>
-        <p id = 'movie-name'>{movieItem.source['name']}</p>
-        <p id='movie-title'>{movieItem.title}</p>
-        <span id='movie-date'>{movieItem.publishedAt}</span>
+        <div className='name-div'>
+          <p id = 'movie-name'>{movieItem.source['name']}</p>
+        </div>  
+        <div className='title-div'>
+          <p id='movie-title'>{movieItem.title}</p>
+        </div>
+        <div className='date-div'>
+          <p id='movie-date'>{movieItem.publishedAt}</p>
+        </div>  
       </div>  
     </div>
   )
