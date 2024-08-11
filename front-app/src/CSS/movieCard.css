@@ -11,18 +11,31 @@
   height : 150px;
   position: relative;
 }
+.headline-div{
+  width: auto;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+}
+.bookmarked-div{
+  height: 40px;
+}
 .name-div{
- height: 25px; 
+ height: 40px; 
 }
 
 #movie-name{
+  word-wrap: break-word;
   text-align: center;
   font-size: 11px;
-  word-wrap: break-word
+  /* word-wrap: break-word */
+}
+#bookmarked-btn{
+  font-size: 8.5px;
+  /* border-radius: 5px; */
 }
 .title-div{
   /* border: 1px solid red; */
-  height: 82px;
+  height: 85px;
   overflow: hidden;
   text-overflow: ellipsis; 
 }

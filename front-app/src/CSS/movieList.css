@@ -6,9 +6,9 @@
   left:0px;
   /* border: 1px  solid red; */
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% ;
+  grid-template-columns: 22% 22% 22% 22% ;
   
-  gap: 5%;
+  gap: 3%;
   
   
 }
